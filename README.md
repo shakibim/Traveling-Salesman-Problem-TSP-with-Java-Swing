@@ -3,7 +3,6 @@
 A Traveling Salesman Problem (TSP) Solver Application implemented in Java using Swing.  
 It allows users to interactively add vertices and edges, auto connect edges, visualize the graph, and solve the TSP using three different approaches: Greedy, Naive, and Dynamic Programming.
 
----
 
 ## Abstract
 
@@ -15,7 +14,6 @@ This application:
 - Supports both manual and automatic graph generation.  
 - Allows real-time visualization of optimal and suboptimal solutions.
 
----
 
 ## Objectives
 
@@ -24,7 +22,6 @@ This application:
 - Provide an auto-connect feature for quick graph generation.  
 - Implement multiple algorithms for solving TSP.  
 - Visualize and compare solution routes and performance.
----
 
 ## Algorithms Implemented
 
@@ -45,7 +42,6 @@ This application:
 - Time complexity: O(n²).  
 - Best for large instances where speed matters.
 
----
 
 ## Application Features
 
@@ -59,7 +55,6 @@ This application:
 | Show Details | View route and distance details. |
 | Clear All | Reset the workspace. |
 
----
 
 ## Performance Comparison
 Performance comparison of the below graph with different approaches of the below graph:
@@ -71,7 +66,6 @@ Performance comparison of the below graph with different approaches of the below
 | Dynamic Programming | 4.40 | Optimal | Efficient for medium instances |
 | Greedy | 0.0243 | Suboptimal | Fastest for large instances |
 
----
 
 ## Example Visualizations
 
@@ -86,21 +80,17 @@ Performance comparison of the below graph with different approaches of the below
 ### Large Instance
 - Only Greedy works efficiently; others freeze due to computation limits.
 
----
 
 ## Limitations
 
 - The app may freeze for large graphs when using Naive or DP algorithms.  
 - In directed graphs, arrows can overlap when nodes are close together.
 
----
 
 ## Conclusion
 
 This project demonstrates how different algorithms solve the TSP problem and how their performance varies with graph size.  
 Dynamic Programming provides accurate results for small to medium datasets, while Greedy performs best for larger ones.
-
----
 
 ## Screenshots
 
